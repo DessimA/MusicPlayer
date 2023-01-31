@@ -8,7 +8,7 @@ import apiClient from "../../spotify"
 
 export default function Sidebar() {
   const [image, setImage] = useState(
-    "https://www.seekpng.com/png/detail/428-4287240_no-avatar-user-circle-icon-png.png"
+    "https://freesvg.org/img/abstract-user-flat-4.png"
   );
 useEffect(() =>{
   apiClient.get("me").then((response) =>{

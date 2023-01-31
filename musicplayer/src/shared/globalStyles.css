@@ -1,6 +1,14 @@
-.screen-container{
-    width: calc(100% - 100px);
-    height: 100%;
-    background-color: #121212;
-    border-radius: 10px;
+.screen-container {
+  width: calc(100% - 100px);
+  height: 100%;
+  background-color: #121212;
+  border-radius: 10px;
+  background-color: #121212;
+  opacity: 1;
+  background-image: repeating-radial-gradient(
+      circle at center left,
+      transparent 0,
+      #121212 90px
+    ),
+    repeating-linear-gradient(#00000055, #000000);
 }
