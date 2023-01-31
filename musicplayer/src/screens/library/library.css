@@ -65,21 +65,14 @@
 
 .playlist-fade {
   position: absolute;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  width: 84%;
-  height: 22%;
-  border-radius: 20px;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.6) 0%,
-    rgba(18, 18, 18, 0.6) 49%,
-    rgba(7, 57, 25, 0.6) 100%
-  );
   display: flex;
   align-items: flex-end;
   justify-items: flex-end;
   padding: 8%;
-  transition: 0.5 ease;  
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  width: 22%;
+  height: 22%;
+  border-radius: 20px;
 }
