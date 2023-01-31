@@ -1,18 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./sidebar.css";
 import SidebarButton from "./sidebarButton";
 import { MdOutlineFeed, MdFavorite } from "react-icons/md";
 import { FaGripfire, FaPlay, FaSignOutAlt } from "react-icons/fa";
 import { IoLibrary } from "react-icons/io5";
+import apiClient from "../../spotify"
 
 export default function Sidebar() {
+  const [image, setImage] = useState(
+    "https://www.seekpng.com/png/detail/428-4287240_no-avatar-user-circle-icon-png.png"
+  );
+useEffect(() =>{
+  apiClient.get("me").then((response) =>{
+    setImage(response.data.images[0].url);
+    console.log(response.data.images[0].url);
+  })
+})
+
   return (
     <div className="sidebar-container">
-      <img
-        src="https://pbs.twimg.com/media/FSzYNjIacAIrx1d.jpg:small"
-        className="profile-img"
-        alt="profile"
-      />
+      <img src={image} className="profile-img" alt="profile" />
       <div>
         <SidebarButton title="Feed" to="/feed" icon={<MdOutlineFeed />} />
         <SidebarButton title="Trending" to="/trending" icon={<FaGripfire />} />
