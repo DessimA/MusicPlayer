@@ -42,7 +42,7 @@
 }
 
 .active {
-  background: rgba(30, 215, 96, 0.08);
+  background: rgba(255, 0, 0, 0.08);
   border-left-color: var(--color-primary);
 }
 

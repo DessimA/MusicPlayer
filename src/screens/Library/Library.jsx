@@ -106,7 +106,7 @@ export default function Library() {
               {playlist.itemCount} {playlist.itemCount === 1 ? 'video' : 'videos'}
             </p>
             <div className={styles.fade}>
-              <IconContext.Provider value={{ size: '50px', color: '#1ed760' }}>
+              <IconContext.Provider value={{ size: '50px', color: '#ff0000' }}>
                 <AiFillPlayCircle />
               </IconContext.Provider>
             </div>

@@ -176,7 +176,7 @@
   transform: scale(0.4);
   height: 100%;
   width: var(--boxSize);
-  background: linear-gradient(40deg, #ffffff 20%, #1ed760 100%) no-repeat;
+  background: linear-gradient(40deg, #ffffff 20%, #ff0000 100%) no-repeat;
   border-radius: 18px;
 }
 

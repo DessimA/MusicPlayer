@@ -195,9 +195,9 @@ npm test          # Run tests
 
 - **Google OAuth PKCE** for secure, token-based authentication (no client secret exposed to server)
 - **YouTube IFrame Player** provides full audio playback with video visibility toggle
-- **Background playback** — audio continues when switching tabs or minimizing video
-- **Minimizable video** — hide video to save screen space while music plays
-- **Searchable queue** — filter tracks within the current playlist
+- **Background playback**  audio continues when switching tabs or minimizing video
+- **Minimizable video**  hide video to save screen space while music plays
+- **Searchable queue**  filter tracks within the current playlist
 - **localStorage** persists tokens across page refreshes (recommended by Google OAuth docs)
 - **Auto token refresh** via refresh_token grant
 - **Error handling** on all API calls with user-facing fallback UI
@@ -205,9 +205,9 @@ npm test          # Run tests
 - **Empty states** when playlists or tracks are unavailable
 - **Mobile-first responsive design** with bottom navigation
 - **CSS Modules** for scoped, conflict-free styles
-- **Minimalist UI** — clean, flat buttons with consistent sizing
-- **Custom hooks** — `useAuth`, `usePlaylistTracks`, `useAudioPlayer` encapsulate logic
+- **Minimalist UI**  clean, flat buttons with consistent sizing
+- **Custom hooks**  `useAuth`, `usePlaylistTracks`, `useAudioPlayer` encapsulate logic
 - **Docker multi-stage builds** for development and production
 - **17 unit/integration tests** with Vitest
-- **No hardcoded secrets** — Google credentials via environment variables
+- **No hardcoded secrets**  Google credentials via environment variables
 - **CSP headers** in both HTML meta tag and nginx production config

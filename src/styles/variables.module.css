@@ -1,6 +1,6 @@
 :root {
-  --color-primary: #1ed760;
-  --color-primary-hover: #1fdf64;
+  --color-primary: #ff0000;
+  --color-primary-hover: #cc0000;
   --color-bg-primary: #000000;
   --color-bg-secondary: #121212;
   --color-bg-tertiary: #303030;
@@ -10,7 +10,7 @@
   --color-text-muted: #b3b3b3;
   --color-border: #151515;
   --color-error: #e74c3c;
-  --color-success: #1ed760;
+  --color-success: #ff0000;
 
   --spacing-unit: 8px;
   --spacing-xs: calc(var(--spacing-unit) * 0.5);

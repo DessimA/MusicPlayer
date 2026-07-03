@@ -43,7 +43,7 @@ export default function ProgressCircle({
         viewBox={`0 0 ${size} ${size}`}
       >
         <g>
-          <Circle strokeWidth="0.4rem" color="#1ed760" size={size} />
+          <Circle strokeWidth="0.4rem" color="#ff0000" size={size} />
           <Circle
             strokeWidth="0.6rem"
             color={color}
