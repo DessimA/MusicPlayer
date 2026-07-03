@@ -1,0 +1,8 @@
+node_modules
+dist
+build
+.git
+.env
+*.md
+.DS_Store
+coverage

@@ -1,0 +1,10 @@
+services:
+  app:
+    image: musicplayer:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    env_file:
+      - .env
