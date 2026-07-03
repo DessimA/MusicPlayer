@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.message {
+  color: var(--color-error);
+  font-size: var(--font-size-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.retryButton {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  background-color: var(--color-primary);
+  color: var(--color-bg-primary);
+  border-radius: var(--border-radius-lg);
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  transition: opacity 0.2s;
+}
+
+.retryButton:hover {
+  opacity: 0.8;
+}

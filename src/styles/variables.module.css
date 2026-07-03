@@ -1,0 +1,41 @@
+:root {
+  --color-primary: #1ed760;
+  --color-primary-hover: #1fdf64;
+  --color-bg-primary: #000000;
+  --color-bg-secondary: #121212;
+  --color-bg-tertiary: #303030;
+  --color-bg-card: rgba(0, 0, 0, 0.6);
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #d1c3b0;
+  --color-text-muted: #b3b3b3;
+  --color-border: #151515;
+  --color-error: #e74c3c;
+  --color-success: #1ed760;
+
+  --spacing-unit: 8px;
+  --spacing-xs: calc(var(--spacing-unit) * 0.5);
+  --spacing-sm: var(--spacing-unit);
+  --spacing-md: calc(var(--spacing-unit) * 2);
+  --spacing-lg: calc(var(--spacing-unit) * 3);
+  --spacing-xl: calc(var(--spacing-unit) * 4);
+
+  --border-radius-sm: 10px;
+  --border-radius-md: 20px;
+  --border-radius-lg: 50px;
+
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 38px;
+
+  --sidebar-width: 100px;
+  --sidebar-collapsed-width: 60px;
+  --bottom-nav-height: 64px;
+
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 768px;
+  --breakpoint-md: 1024px;
+}

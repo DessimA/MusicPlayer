@@ -1,0 +1,62 @@
+.container {
+  width: var(--sidebar-width);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.profileImage {
+  width: 60px;
+  height: 60px;
+  border-radius: var(--border-radius-md);
+  margin-top: var(--spacing-lg);
+  object-fit: cover;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonBody {
+  height: 80px;
+  width: 80px;
+  border-radius: var(--border-radius-md);
+  color: var(--color-text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px auto;
+  transition: all 0.2s ease;
+}
+
+.active {
+  background-color: var(--color-primary);
+  color: var(--color-text-primary);
+  transform: scale(1.05);
+}
+
+.buttonBody:hover {
+  color: var(--color-text-primary);
+}
+
+.buttonTitle {
+  margin: 4px auto;
+  font-weight: 600;
+  font-size: var(--font-size-xs);
+}
+
+.buttonIcon {
+  margin-bottom: 2px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    display: none;
+  }
+}
