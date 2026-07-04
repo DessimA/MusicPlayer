@@ -24,7 +24,7 @@
     90deg,
     rgba(0, 0, 0, 0.6) 0%,
     rgba(18, 18, 18, 0.6) 49%,
-    rgba(7, 57, 25, 0.6) 100%
+    rgba(57, 7, 7, 0.6) 100%
   );
   transition: all 0.2s ease;
   cursor: pointer;
