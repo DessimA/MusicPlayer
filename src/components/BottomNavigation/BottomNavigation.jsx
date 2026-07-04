@@ -1,15 +1,16 @@
 import { useLocation, useNavigate } from 'react-router-dom'
-import { FaPlay, FaSignOutAlt } from 'react-icons/fa'
+import { FaPlay, FaSignOutAlt, FaInfoCircle } from 'react-icons/fa'
 import { IoLibrary } from 'react-icons/io5'
 import styles from './BottomNavigation.module.css'
 
-export default function BottomNavigation({ onLogout }) {
+export default function BottomNavigation({ onLogout, onInfo }) {
   const location = useLocation()
   const navigate = useNavigate()
 
   const links = [
     { title: 'Player', to: '/player', icon: <FaPlay size={22} /> },
     { title: 'Library', to: '/', icon: <IoLibrary size={22} /> },
+    { title: 'Info', to: '', icon: <FaInfoCircle size={22} />, action: onInfo },
     { title: 'Sign Out', to: '', icon: <FaSignOutAlt size={22} />, action: onLogout },
   ]
 

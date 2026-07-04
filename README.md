@@ -1,5 +1,12 @@
 # MusicPlayer
 
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
+![YouTube Data API](https://img.shields.io/badge/YouTube_Data_API-v3-FF0000?logo=youtube&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+[![GitHub](https://img.shields.io/badge/GitHub-DessimA-181717?logo=github&logoColor=white)](https://github.com/DessimA/MusicPlayer)
+
 Music player powered by YouTube Data API v3. Built with React, Vite, and Docker. Features Google OAuth PKCE authentication, mobile-first responsive design, and full audio playback via the YouTube IFrame Player API.
 
 ## Architecture
@@ -195,9 +202,9 @@ npm test          # Run tests
 
 - **Google OAuth PKCE** for secure, token-based authentication (no client secret exposed to server)
 - **YouTube IFrame Player** provides full audio playback with video visibility toggle
-- **Background playback**  audio continues when switching tabs or minimizing video
-- **Minimizable video**  hide video to save screen space while music plays
-- **Searchable queue**  filter tracks within the current playlist
+- **Background playback** audio continues when switching tabs or minimizing video
+- **Minimizable video** hide video to save screen space while music plays
+- **Searchable queue** filter tracks within the current playlist
 - **localStorage** persists tokens across page refreshes (recommended by Google OAuth docs)
 - **Auto token refresh** via refresh_token grant
 - **Error handling** on all API calls with user-facing fallback UI
@@ -205,9 +212,18 @@ npm test          # Run tests
 - **Empty states** when playlists or tracks are unavailable
 - **Mobile-first responsive design** with bottom navigation
 - **CSS Modules** for scoped, conflict-free styles
-- **Minimalist UI**  clean, flat buttons with consistent sizing
-- **Custom hooks**  `useAuth`, `usePlaylistTracks`, `useAudioPlayer` encapsulate logic
+- **Minimalist UI** clean, flat buttons with consistent sizing
+- **Custom hooks** `useAuth`, `usePlaylistTracks`, `useAudioPlayer` encapsulate logic
 - **Docker multi-stage builds** for development and production
 - **17 unit/integration tests** with Vitest
-- **No hardcoded secrets**  Google credentials via environment variables
+- **No hardcoded secrets** Google credentials via environment variables
 - **CSP headers** in both HTML meta tag and nginx production config
+- **Info modal** accessible from sidebar and bottom navigation
+- **MIT licensed** with contributing and security guidelines
+
+## Documentation
+
+- [MIT License](LICENSE)
+- [Terms of Use](TERMS.md)
+- [Contributing](CONTRIBUTING.md)
+- [Security](SECURITY.md)
